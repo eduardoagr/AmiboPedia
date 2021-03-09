@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:behaviorsPack="clr-namespace:Xamarin.Forms.BehaviorsPack;assembly=Xamarin.Forms.BehaviorsPack"
+             xmlns:autocomplete="clr-namespace:Syncfusion.SfAutoComplete.XForms;assembly=Syncfusion.SfAutoComplete.XForms"
+             x:Class="AmiboPedia.View.AmiboCollectionPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <autocomplete:SfAutoComplete DataSource="{x:Binding Characters}"
+                                         Watermark="Search for your amiibo"
+                                         HeightRequest="40"
+                                         SelectedValue="{x:Binding SearchCommand, Mode=TwoWay}"
+                                         DisplayMemberPath="name">
+
+                <autocomplete:SfAutoComplete.Behaviors>
+                    <behaviorsPack:EventToCommandBehavior EventName="SelectionChanged"
+                                                          Command="{x:Binding SearchCommand}"
+                                                          EventArgsPropertyPath="Value" />
+                </autocomplete:SfAutoComplete.Behaviors>
+            </autocomplete:SfAutoComplete>
+            <CollectionView SelectionMode="Single"
+                            ItemsSource="{x:Binding Amiibos}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame CornerRadius="20">
+                            <StackLayout Spacing="10">
+                                <Image Source="{x:Binding image}" />
+                                <Label Text="{x:Binding name, StringFormat='Name: {0}' }" />
+                                <Label Text="{x:Binding gameSeries, StringFormat='gameSeries: {0}' }" />
+                                
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

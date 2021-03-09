@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "PmA8oCXJ5jmD8qfjG6rH9DQcUfFsehTp+wuOvCzrKThlKFnMuF1MA259NYqDF4dlEYSfrny0Qv4ZIru3Co3L6Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\egome\\Documents\\GitRepos\\Amibo\\AmiboPedia\\AmiboPedia.iOS\\AmiboPedia.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\egome\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\syncfusion.licensing\\18.4.0.47\\syncfusion.licensing.18.4.0.47.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\syncfusion.xamarin.cards\\18.4.0.47\\syncfusion.xamarin.cards.18.4.0.47.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\syncfusion.xamarin.core\\18.4.0.47\\syncfusion.xamarin.core.18.4.0.47.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\syncfusion.xamarin.sfautocomplete\\18.4.0.47\\syncfusion.xamarin.sfautocomplete.18.4.0.47.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\xamarin.forms.behaviorspack\\2.2.0\\xamarin.forms.behaviorspack.2.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
