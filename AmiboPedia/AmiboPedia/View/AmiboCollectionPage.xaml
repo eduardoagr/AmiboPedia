@@ -25,9 +25,13 @@
                         <Frame CornerRadius="20">
                             <StackLayout Spacing="10">
                                 <Image Source="{x:Binding image}" />
-                                <Label Text="{x:Binding name, StringFormat='Name: {0}' }" />
-                                <Label Text="{x:Binding gameSeries, StringFormat='gameSeries: {0}' }" />
-                                
+                                <BoxView Color="Gray"
+                                         HeightRequest="2"
+                                         HorizontalOptions="Fill" />
+                                <Label Text="{x:Binding name, StringFormat='Name: {0}'}" />
+                                <Label Text="{x:Binding amiiboSeries, StringFormat='Amiibo Series : {0}'}" />
+                                <Label Text="{x:Binding type, StringFormat='Type: {0}'}" />
+                                <Label Text="{x:Binding release.eu, StringFormat='Release date: {0}'}" />
                             </StackLayout>
                         </Frame>
                     </DataTemplate>

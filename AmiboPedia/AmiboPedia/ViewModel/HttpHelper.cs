@@ -18,7 +18,7 @@ namespace AmiboPedia.ViewModel {
                     var result = JsonConvert.DeserializeObject<T>(jsonResult);
                     return result;
                 }
-                return default(T);
+                return default;
             }
         }
     }
