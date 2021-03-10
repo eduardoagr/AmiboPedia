@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "FTP7+dTJ6LSFdQoScO8hpWz2i8fm0GLZ2RfndZoqFjEnAE+VF2Cg7G64CQRCei4hpjs2xu9iTz2QDfCSfnWw0g==",
+  "dgSpecHash": "eW8b1wUui3zHyFb82tvRLqbd3GnTTq1KV4K8BMtwJw7bB0XTqpf2Gi11YiAJJX3+QFmLx/ihUTM06567vxyNwQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\egome\\Documents\\GitRepos\\Amibo\\AmiboPedia\\AmiboPedia.Android\\AmiboPedia.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\egome\\.nuget\\packages\\acr.userdialogs\\7.1.0.481\\acr.userdialogs.7.1.0.481.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\andhud\\1.4.2\\andhud.1.4.2.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\syncfusion.licensing\\18.4.0.47\\syncfusion.licensing.18.4.0.47.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\syncfusion.xamarin.cards\\18.4.0.47\\syncfusion.xamarin.cards.18.4.0.47.nupkg.sha512",

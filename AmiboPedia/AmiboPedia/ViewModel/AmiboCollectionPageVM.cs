@@ -1,4 +1,6 @@
-﻿using AmiboPedia.Model;
+﻿using Acr.UserDialogs;
+
+using AmiboPedia.Model;
 
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
@@ -26,7 +28,7 @@ namespace AmiboPedia.ViewModel {
         public AmiboCollectionPageVM() {
 
             SearchCommand = new Command(async (SearchTerm) => {
-
+                UserDialogs.Instance.ShowLoading("Working");
                 var character = SearchTerm as Character;
                 if (character != null) {
                     var url = $"https://www.amiiboapi.com/api/amiibo/?character={character.name}";
@@ -34,12 +36,15 @@ namespace AmiboPedia.ViewModel {
                     var amiibos = await service.GetRestServiceData(url);
                     Amiibos = new ObservableCollection<Amiibo>(amiibos.amiibo);
                 }
+                UserDialogs.Instance.HideLoading();
             });
         }
         public async Task LoadCharacters(string url) {
+            UserDialogs.Instance.ShowLoading("Working");
             var servine = new HttpHelper<Characters>();
             var characters = await servine.GetRestServiceData(url);
             Characters = new ObservableCollection<Character>(characters.amiibo);
+            UserDialogs.Instance.HideLoading();
         }
     }
 }

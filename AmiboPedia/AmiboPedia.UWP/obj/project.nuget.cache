@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "gdsIF2OwsbRbbxDAVukBZLh4MToVBtDXzbaxwfDJA4hPv7ZMAacGwU4onl+HLBBv5fQ+zs2/rTSWvLGpZT5NZA==",
+  "dgSpecHash": "Q1yhfAiPZJt2X1zl7+IJiHAwYNPCyCteBAxJ8mGfzv3Iu7HRAc+VcwFmv1GrrSeMjJthkuwxh+zZGFEEqHx1nw==",
   "success": true,
   "projectFilePath": "C:\\Users\\egome\\Documents\\GitRepos\\Amibo\\AmiboPedia\\AmiboPedia.UWP\\AmiboPedia.UWP.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\egome\\.nuget\\packages\\acr.userdialogs\\7.1.0.481\\acr.userdialogs.7.1.0.481.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\coding4fun.toolkit.controls\\2.1.8\\coding4fun.toolkit.controls.2.1.8.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\microsoft.net.native.compiler\\2.2.10-rel-29722-00\\microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.2.12\\microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",

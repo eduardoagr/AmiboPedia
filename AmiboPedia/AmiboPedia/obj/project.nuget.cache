@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8Pr8zUbEeF64ojBX9w2pZXMq0mxb7Ek99NTEgHvz9yZYZAmB7ByZno3U1D7/olerb83n7GWaa/pnitHOz5E+3g==",
+  "dgSpecHash": "i5aM48Yw7nBIZGOJLzegtiPxZ+yOEbpRVLq7ixEUo1hcdc1E7fa84N9RU50Oq3tQaf/54N4jw+4MKSh/66jA0Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\egome\\Documents\\GitRepos\\Amibo\\AmiboPedia\\AmiboPedia\\AmiboPedia.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\egome\\.nuget\\packages\\acr.userdialogs\\7.1.0.481\\acr.userdialogs.7.1.0.481.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
