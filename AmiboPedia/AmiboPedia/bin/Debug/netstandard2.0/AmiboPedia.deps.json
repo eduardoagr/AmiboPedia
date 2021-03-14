@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "AmiboPedia/1.0.0": {
         "dependencies": {
+          "Acr.UserDialogs": "7.1.0.481",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.3",
           "Syncfusion.Licensing": "18.4.0.47",
@@ -20,6 +21,14 @@
         },
         "runtime": {
           "AmiboPedia.dll": {}
+        }
+      },
+      "Acr.UserDialogs/7.1.0.481": {
+        "runtime": {
+          "lib/netstandard2.0/Acr.UserDialogs.dll": {
+            "assemblyVersion": "7.1.0.481",
+            "fileVersion": "7.1.0.481"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -133,6 +142,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Acr.UserDialogs/7.1.0.481": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s/XcLHi41gOBbo4MSNcVOAwVfoc5SVbtlibcAzDFnXb2GrTEmIHG078F3/CFjqgmRiWwzJJCYfY1vy5hCgc/ww==",
+      "path": "acr.userdialogs/7.1.0.481",
+      "hashPath": "acr.userdialogs.7.1.0.481.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

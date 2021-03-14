@@ -3,7 +3,9 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "AmiboPedia.Android.dll" comes first in this list. */
 		"AmiboPedia.Android.dll",
+		"Acr.UserDialogs.dll",
 		"AmiboPedia.dll",
+		"AndHUD.dll",
 		"FormsViewGroup.dll",
 		"Newtonsoft.Json.dll",
 		"Syncfusion.Cards.XForms.Android.dll",

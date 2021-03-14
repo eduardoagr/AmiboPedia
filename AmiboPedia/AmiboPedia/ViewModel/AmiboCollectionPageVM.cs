@@ -40,11 +40,9 @@ namespace AmiboPedia.ViewModel {
             });
         }
         public async Task LoadCharacters(string url) {
-            UserDialogs.Instance.ShowLoading("Working");
             var servine = new HttpHelper<Characters>();
             var characters = await servine.GetRestServiceData(url);
             Characters = new ObservableCollection<Character>(characters.amiibo);
-            UserDialogs.Instance.HideLoading();
         }
     }
 }
